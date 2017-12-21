@@ -1,6 +1,4 @@
-######################################################################################################################################
-#                                                           KAMP-WS                                                                  #
-######################################################################################################################################
+# KAMP-WS
 
 The kamp-ws-parent Maven project contains everything you need to build and deploy the kamp-ws-server.
 It was implemented in the course of the bachelor's thesis 
