@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_gnQpAGC0EeeGHfgtarxc8g" entityName="New Repository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_jFaGcGC0EeeGHfgtarxc8g" entityName="xs-generation-model">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sR9VkGC0EeeGHfgtarxc8g" entityName="OperationProvidedRole1" providedInterface__OperationProvidedRole="_oXm_4GC0EeeGHfgtarxc8g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_vc3yYGC0EeeGHfgtarxc8g" entityName="xs-frontend">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ZA2gkGhwEee2hp6a33APNA" entityName="OperationProvidedRole1" providedInterface__OperationProvidedRole="_WtSigGhwEee2hp6a33APNA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Ta9PEGhwEee2hp6a33APNA" entityName="OperationRequiredRole1" requiredInterface__OperationRequiredRole="_oXm_4GC0EeeGHfgtarxc8g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_wsJo8GC0EeeGHfgtarxc8g" entityName="xs-server">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_e37BoGhwEee2hp6a33APNA" entityName="OperationProvidedRole1" providedInterface__OperationProvidedRole="_cwfbEGhwEee2hp6a33APNA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_T14QgGhwEee2hp6a33APNA" entityName="OperationRequiredRole1" requiredInterface__OperationRequiredRole="_oXm_4GC0EeeGHfgtarxc8g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_bXscIGhwEee2hp6a33APNA" entityName="OperationRequiredRole2" requiredInterface__OperationRequiredRole="_WtSigGhwEee2hp6a33APNA"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_oXm_4GC0EeeGHfgtarxc8g" entityName="xs-generation">
+    <signatures__OperationInterface id="_qCz9cGC0EeeGHfgtarxc8g" entityName="getModel"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_WtSigGhwEee2hp6a33APNA" entityName="xs-frontend">
+    <signatures__OperationInterface id="_Zh5YIGhwEee2hp6a33APNA" entityName="getDashboard"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_cwfbEGhwEee2hp6a33APNA" entityName="xs-server">
+    <signatures__OperationInterface id="_fI2ZkGhwEee2hp6a33APNA" entityName="startServer"/>
+  </interfaces__Repository>
+</repository:Repository>

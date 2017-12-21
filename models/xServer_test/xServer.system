@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_ld4GoF_YEeeiH9xMAsAPmw" entityName="xServer">
+  <assemblyContexts__ComposedStructure id="_4Pjc8F_YEeeiH9xMAsAPmw" entityName="Assembly_xs-generation">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_baNN0F_OEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_2D3hIF_bEeeiH9xMAsAPmw" entityName="Assembly_xs-runtime">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_oLQT4F_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_6BFkoF_bEeeiH9xMAsAPmw" entityName="Assembly_lbc">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_XEoxMF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="__HQ0QF_bEeeiH9xMAsAPmw" entityName="Assembly_lgc-servicesMapHelper">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_bhSisF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_OA7-QF_cEeeiH9xMAsAPmw" entityName="Assembly_loc-loadOptimizer">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_Is8dcF_OEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_pq2wQGCPEee574C1gMQIfw" entityName="Assembly_lgc-commonRoutingServicesTasks">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_U1hyEGCNEee574C1gMQIfw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_hQlC8F_cEeeiH9xMAsAPmw" entityName="Assembly_lgc-dataInformationServices">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_5dw9gF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_nC1VcF_cEeeiH9xMAsAPmw" entityName="Assembly_lgc-rendererServices">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_xW8nYF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_xTDBAF_cEeeiH9xMAsAPmw" entityName="Assembly_lgc-renderer">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_Kv96kF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_6sfcoF_cEeeiH9xMAsAPmw" entityName="Assembly_xs-engines">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_1Zq18F_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_-Ly1EF_cEeeiH9xMAsAPmw" entityName="Assembly_lgc-roadGraph">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_4GHDgF_MEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_Fjv6EF_dEeeiH9xMAsAPmw" entityName="Assembly_lgc-dataAccess">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_Dlq3EF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_MoLmIF_dEeeiH9xMAsAPmw" entityName="Assembly_lgc-router">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_9D1FQF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_amgiMF_dEeeiH9xMAsAPmw" entityName="Assembly_lgc-routerServices">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_tZzcYF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_kBsqQF_dEeeiH9xMAsAPmw" entityName="Assembly_loc-vrpSolver">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_syD8YF_MEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_v4dc4F_dEeeiH9xMAsAPmw" entityName="Assembly_loc-vrpServices">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_f9avwF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_E13D4F_eEeeiH9xMAsAPmw" entityName="Assembly_loc-territoryOptimizer">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_j36E0F_MEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_YtyQkF_eEeeiH9xMAsAPmw" entityName="Assembly_loc-clusterServices">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_SUOysF_MEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_lYlvQF_eEeeiH9xMAsAPmw" entityName="Assembly_lgc-dimaCtrl">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_lRSdIF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_w67KAF_eEeeiH9xMAsAPmw" entityName="Assembly_lgc-dimaServices">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_QMpwQF_OEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_-LfBIF_eEeeiH9xMAsAPmw" entityName="Assembly_xs-modules">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_YMy2oF_OEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_zA6wsF_fEeeiH9xMAsAPmw" entityName="Assembly_xs-frontend">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_Gi9HkF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_7IpFwF_fEeeiH9xMAsAPmw" entityName="Assembly_xs-server-container">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_P9JxIF_NEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_8yjp4F_fEeeiH9xMAsAPmw" entityName="Assembly_xs-server-services">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_TnrFoF_OEeeiH9xMAsAPmw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_w0KZcGCIEee574C1gMQIfw" entityName="Assembly_xs-server-systemTest">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_RNa1MGCIEee574C1gMQIfw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_mhH_MGCPEee574C1gMQIfw" entityName="Assembly_lgc-dataServices">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="xServer.repository#_bLij0GCLEee574C1gMQIfw"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_GhzTMF_cEeeiH9xMAsAPmw" entityName="xs-generation" requiringAssemblyContext_AssemblyConnector="_2D3hIF_bEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_4Pjc8F_YEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_czTuwF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_hrM_4F_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_G-kuwF_cEeeiH9xMAsAPmw" entityName="xs-runtime" requiringAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_2D3hIF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_pGsBYF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_FY3LoF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_HeF8UF_cEeeiH9xMAsAPmw" entityName="xs-generation" requiringAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_4Pjc8F_YEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_czTuwF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_CfYdEF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_H6pVcF_cEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_JJHKIF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_U86R4F_cEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_OA7-QF_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_9UvHsF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Vj-R4F_cEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiringAssemblyContext_AssemblyConnector="_OA7-QF_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_cYnzUF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_-TIpoF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_jBXzQGLeEeeiIOBM5Tu7tg" entityName="xs-generation_documentation" requiringAssemblyContext_AssemblyConnector="_zA6wsF_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_4Pjc8F_YEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_RTOWgGLeEeeiIOBM5Tu7tg"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_VrG8wGLeEeeiIOBM5Tu7tg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_dWls0GCQEee574C1gMQIfw" entityName="lgc-servicesMapHelper" requiringAssemblyContext_AssemblyConnector="_pq2wQGCPEee574C1gMQIfw" providingAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_cYnzUF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_riD0YGCNEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_lRdecF_cEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_hQlC8F_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_2RhjoF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_l0yN8F_cEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiringAssemblyContext_AssemblyConnector="_hQlC8F_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_cYnzUF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_1g2UoF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_u2Q1gF_cEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_nC1VcF_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_uRJMsF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_v06PEF_cEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiringAssemblyContext_AssemblyConnector="_nC1VcF_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_cYnzUF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_wQJQAF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4JvzEF_cEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_xTDBAF_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_50IkMF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4yVdEF_cEeeiH9xMAsAPmw" entityName="lgc-renderer" requiringAssemblyContext_AssemblyConnector="_nC1VcF_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_xTDBAF_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_MD0vIF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_tD-2AF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_BcTjkF_dEeeiH9xMAsAPmw" entityName="lgc-roadGraph" requiringAssemblyContext_AssemblyConnector="_xTDBAF_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_-Ly1EF_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_5FNwEF_MEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_4_5q4F_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Ccbj0F_dEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_-Ly1EF_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_de0UcF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KhyhYF_dEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_Fjv6EF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_x7FkUF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LF7JMF_dEeeiH9xMAsAPmw" entityName="lgc-dataAccess" requiringAssemblyContext_AssemblyConnector="_-Ly1EF_cEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_Fjv6EF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_EsFskF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_eIMBkF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_UOVfMF_dEeeiH9xMAsAPmw" entityName="lgc-roadGraph" requiringAssemblyContext_AssemblyConnector="_MoLmIF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_-Ly1EF_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_5FNwEF_MEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_5sLsoF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_VMr90F_dEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_MoLmIF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_6iNVsF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gJEL0F_dEeeiH9xMAsAPmw" entityName="lgc-router" requiringAssemblyContext_AssemblyConnector="_amgiMF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_MoLmIF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_-9eugF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_mOIYgF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_hPLfUF_dEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_amgiMF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_ntB_cF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_idrSwF_dEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiringAssemblyContext_AssemblyConnector="_amgiMF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_cYnzUF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_pYro8F_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_rVFYUF_dEeeiH9xMAsAPmw" entityName="lgc-router" requiringAssemblyContext_AssemblyConnector="_kBsqQF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_MoLmIF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_-9eugF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_Um1AEF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_sLyW0F_dEeeiH9xMAsAPmw" entityName="lgc-dataAccess" requiringAssemblyContext_AssemblyConnector="_kBsqQF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_Fjv6EF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_EsFskF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_XojEoF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_taygkF_dEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_kBsqQF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_Y-b5gF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ujZHYF_dEeeiH9xMAsAPmw" entityName="lgc-roadGraph" requiringAssemblyContext_AssemblyConnector="_kBsqQF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_-Ly1EF_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_5FNwEF_MEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_V_3PkF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__FfnwF_dEeeiH9xMAsAPmw" entityName="loc-vrpSolver" requiringAssemblyContext_AssemblyConnector="_v4dc4F_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_kBsqQF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_t6eV8F_MEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_Y7y_wF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_AiH90F_eEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_v4dc4F_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_TZCh0F_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CHFJcF_eEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiringAssemblyContext_AssemblyConnector="_v4dc4F_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_cYnzUF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_Ug_BUF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_SpucYF_eEeeiH9xMAsAPmw" entityName="lgc-roadGraph" requiringAssemblyContext_AssemblyConnector="_E13D4F_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_-Ly1EF_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_5FNwEF_MEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_rT84QF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_UHsPMF_eEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_E13D4F_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_php0MF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_VXPLgF_eEeeiH9xMAsAPmw" entityName="lgc-dataAccess" requiringAssemblyContext_AssemblyConnector="_E13D4F_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_Fjv6EF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_EsFskF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_qkgYUF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_WMvQIF_eEeeiH9xMAsAPmw" entityName="lgc-router" requiringAssemblyContext_AssemblyConnector="_E13D4F_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_MoLmIF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_-9eugF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_sgs_QF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ggGWUF_eEeeiH9xMAsAPmw" entityName="loc-territoryOptimizer" requiringAssemblyContext_AssemblyConnector="_YtyQkF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_E13D4F_eEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_nX2WcF_MEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_5vFhkF_OEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_hzScgF_eEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_YtyQkF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_9XYd8F_OEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_jil28F_eEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiringAssemblyContext_AssemblyConnector="_YtyQkF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_cYnzUF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_AP90oF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_sumTgF_eEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_lYlvQF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_cACM0F_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_t8RnkF_eEeeiH9xMAsAPmw" entityName="lgc-router" requiringAssemblyContext_AssemblyConnector="_lYlvQF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_MoLmIF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_-9eugF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_fd1JYF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_vBOdcF_eEeeiH9xMAsAPmw" entityName="lgc-dimaCtrl" requiringAssemblyContext_AssemblyConnector="_kBsqQF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_lYlvQF_eEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_l8vN4F_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_TdR-EF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_vmxagF_eEeeiH9xMAsAPmw" entityName="lgc-dimaCtrl" requiringAssemblyContext_AssemblyConnector="_E13D4F_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_lYlvQF_eEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_l8vN4F_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_oUJfQF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_1jU4gF_eEeeiH9xMAsAPmw" entityName="lgc-dimaCtrl" requiringAssemblyContext_AssemblyConnector="_w67KAF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_lYlvQF_eEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_l8vN4F_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_DOYboF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_29vBAF_eEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_w67KAF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_EA5dsF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4xzmsF_eEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiringAssemblyContext_AssemblyConnector="_w67KAF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_cYnzUF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_EgQTMF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_8CKkMF_eEeeiH9xMAsAPmw" entityName="lgc-dimaServices" requiringAssemblyContext_AssemblyConnector="_v4dc4F_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_w67KAF_eEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_RIEPoF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_W6RM4F_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_8mKpIF_eEeeiH9xMAsAPmw" entityName="lgc-dimaServices" requiringAssemblyContext_AssemblyConnector="_YtyQkF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_w67KAF_eEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_RIEPoF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_Di0FcF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oOS7oF_fEeeiH9xMAsAPmw" entityName="loc-loadOptimizer" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_OA7-QF_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_JftXIF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_eG_c0F_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_bhRxAGCQEee574C1gMQIfw" entityName="lgc-commonRoutingServicesTasks" requiringAssemblyContext_AssemblyConnector="_amgiMF_dEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_pq2wQGCPEee574C1gMQIfw">
+    <providedRole_AssemblyConnector href="xServer.repository#_WFV0IGCNEee574C1gMQIfw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_x3X7MGCOEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pOAFIF_fEeeiH9xMAsAPmw" entityName="lgc-dataInformationServices" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_hQlC8F_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_65swAF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_VGu9QF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pvpZoF_fEeeiH9xMAsAPmw" entityName="lgc-rendererServices" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_nC1VcF_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_zkuGgF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_X8FZwF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_qJNJIF_fEeeiH9xMAsAPmw" entityName="xs-engines" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6sfcoF_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_2QYbgF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_dAV90F_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_q0bQYF_fEeeiH9xMAsAPmw" entityName="lgc-routerServices" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_amgiMF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_uRqRcF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_WhUE4F_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_rUbmIF_fEeeiH9xMAsAPmw" entityName="loc-vrpServices" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_v4dc4F_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_iGO2YF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_SLWxQF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_rs6-oF_fEeeiH9xMAsAPmw" entityName="loc-clusterServices" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_YtyQkF_eEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_WEzhUF_MEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_hqMd0F_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_sPVIIF_fEeeiH9xMAsAPmw" entityName="lgc-dimaServices" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_w67KAF_eEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_RIEPoF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_fuiCYF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_uwKGIF_fEeeiH9xMAsAPmw" entityName="xs-runtime" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_2D3hIF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_pGsBYF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_Qr_3UF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_vzAqQF_fEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_Tw-rQF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_xlXYsF_fEeeiH9xMAsAPmw" entityName="xs-generation" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_4Pjc8F_YEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_czTuwF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_aXWiUF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_1ZIlQF_fEeeiH9xMAsAPmw" entityName="xs-generation" requiringAssemblyContext_AssemblyConnector="_zA6wsF_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_4Pjc8F_YEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_czTuwF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_1Nl24F_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_C905UF_gEeeiH9xMAsAPmw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_8yjp4F_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_KrcqIF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_DsqVQF_gEeeiH9xMAsAPmw" entityName="xs-runtime" requiringAssemblyContext_AssemblyConnector="_8yjp4F_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_2D3hIF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_pGsBYF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_NOWEsF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_E_IpwF_gEeeiH9xMAsAPmw" entityName="xs-generation" requiringAssemblyContext_AssemblyConnector="_8yjp4F_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_4Pjc8F_YEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_czTuwF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_JYcxMF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_GIKHUF_gEeeiH9xMAsAPmw" entityName="xs-frontend" requiringAssemblyContext_AssemblyConnector="_8yjp4F_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_zA6wsF_fEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_IE7QoF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_ISG0MF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KaEBYF_gEeeiH9xMAsAPmw" entityName="xs-generation" requiringAssemblyContext_AssemblyConnector="_7IpFwF_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_4Pjc8F_YEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_czTuwF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_9N2SAF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_K73G4F_gEeeiH9xMAsAPmw" entityName="xs-frontend" requiringAssemblyContext_AssemblyConnector="_7IpFwF_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_zA6wsF_fEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_IE7QoF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#__MWmEF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Lda70F_gEeeiH9xMAsAPmw" entityName="xs-server-services" requiringAssemblyContext_AssemblyConnector="_7IpFwF_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_8yjp4F_fEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_ViM4oF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_-faAgF_PEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_L5Wp4F_gEeeiH9xMAsAPmw" entityName="xs-modules" requiringAssemblyContext_AssemblyConnector="_8yjp4F_fEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_ZV5MsF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_L7ptwF_REeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_U0FJMF_gEeeiH9xMAsAPmw" entityName="xs-server-container" outerProvidedRole_ProvidedDelegationConnector="_OviM0F_gEeeiH9xMAsAPmw" assemblyContext_ProvidedDelegationConnector="_7IpFwF_fEeeiH9xMAsAPmw">
+    <innerProvidedRole_ProvidedDelegationConnector href="xServer.repository#_RMhHQF_NEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_AqZ5YGCJEee574C1gMQIfw" entityName="xs-server-services" requiringAssemblyContext_AssemblyConnector="_w0KZcGCIEee574C1gMQIfw" providingAssemblyContext_AssemblyConnector="_8yjp4F_fEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_ViM4oF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_V6uR0GCIEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_BcFN8GCJEee574C1gMQIfw" entityName="xs-server-container" requiringAssemblyContext_AssemblyConnector="_w0KZcGCIEee574C1gMQIfw" providingAssemblyContext_AssemblyConnector="_7IpFwF_fEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_RMhHQF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_WiKsUGCIEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_CTFHYGCJEee574C1gMQIfw" entityName="xs-generation" requiringAssemblyContext_AssemblyConnector="_w0KZcGCIEee574C1gMQIfw" providingAssemblyContext_AssemblyConnector="_4Pjc8F_YEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_czTuwF_OEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_djO7UGCIEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_zXwTYGCPEee574C1gMQIfw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_mhH_MGCPEee574C1gMQIfw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_qg3vEGCLEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0AMMYGCPEee574C1gMQIfw" entityName="lgc-servicesMapHelper" requiringAssemblyContext_AssemblyConnector="_mhH_MGCPEee574C1gMQIfw" providingAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_cYnzUF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_lHFm8GCLEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_2wgX4GCPEee574C1gMQIfw" entityName="lgc-dataServices" requiringAssemblyContext_AssemblyConnector="_-LfBIF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_mhH_MGCPEee574C1gMQIfw">
+    <providedRole_AssemblyConnector href="xServer.repository#_dQ2qgGCLEee574C1gMQIfw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_2x3moGCLEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_HhYUEGCQEee574C1gMQIfw" entityName="lgc-roadGraph" requiringAssemblyContext_AssemblyConnector="__HQ0QF_bEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_-Ly1EF_cEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_5FNwEF_MEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_KVpOsF_QEeeiH9xMAsAPmw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_XCyzgGCQEee574C1gMQIfw" entityName="lbc" requiringAssemblyContext_AssemblyConnector="_pq2wQGCPEee574C1gMQIfw" providingAssemblyContext_AssemblyConnector="_6BFkoF_bEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_YVNBMF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_uoI0gGCNEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Y8tigGCQEee574C1gMQIfw" entityName="lgc-router" requiringAssemblyContext_AssemblyConnector="_pq2wQGCPEee574C1gMQIfw" providingAssemblyContext_AssemblyConnector="_MoLmIF_dEeeiH9xMAsAPmw">
+    <providedRole_AssemblyConnector href="xServer.repository#_-9eugF_NEeeiH9xMAsAPmw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_nox1sGCNEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Z08yEGCQEee574C1gMQIfw" entityName="lgc-commonRoutingServicesTasks" requiringAssemblyContext_AssemblyConnector="_w67KAF_eEeeiH9xMAsAPmw" providingAssemblyContext_AssemblyConnector="_pq2wQGCPEee574C1gMQIfw">
+    <providedRole_AssemblyConnector href="xServer.repository#_WFV0IGCNEee574C1gMQIfw"/>
+    <requiredRole_AssemblyConnector href="xServer.repository#_sxwFMGCOEee574C1gMQIfw"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_OviM0F_gEeeiH9xMAsAPmw" entityName="xServer">
+    <providedInterface__OperationProvidedRole href="xServer.repository#_OZSKoF_NEeeiH9xMAsAPmw"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

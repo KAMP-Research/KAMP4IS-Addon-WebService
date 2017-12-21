@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fieldofactivityannotations:ISFieldOfActivityAnnotationsRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fieldofactivityannotations="http://sdq.ipd.kit.edu/KAMP4ISFieldOfActivityAnnotations/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <developmentArtefactSpecification/>
+  <buildSpecification>
+    <buildConfigurations filename="container_build.xml" technology="Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_P9JxIF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+  </buildSpecification>
+  <testSpecification/>
+  <releaseSpecification/>
+  <deploymentSpecification/>
+  <staffSpecification>
+    <personList/>
+    <roleList/>
+  </staffSpecification>
+</fieldofactivityannotations:ISFieldOfActivityAnnotationsRepository>

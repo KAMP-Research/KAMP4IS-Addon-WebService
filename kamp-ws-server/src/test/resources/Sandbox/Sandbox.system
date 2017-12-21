@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_lMCrEGhwEee2hp6a33APNA" entityName="New System">
+  <assemblyContexts__ComposedStructure id="_oLb0YGhwEee2hp6a33APNA" entityName="Assembly_xs-generation-model">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="Sandbox.repository#_jFaGcGC0EeeGHfgtarxc8g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_swwZsGhwEee2hp6a33APNA" entityName="Assembly_xs-frontend">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="Sandbox.repository#_vc3yYGC0EeeGHfgtarxc8g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_uCixsGhwEee2hp6a33APNA" entityName="Assembly_xs-server">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="Sandbox.repository#_wsJo8GC0EeeGHfgtarxc8g"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4ajHUGhwEee2hp6a33APNA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_uCixsGhwEee2hp6a33APNA" providingAssemblyContext_AssemblyConnector="_oLb0YGhwEee2hp6a33APNA">
+    <providedRole_AssemblyConnector href="Sandbox.repository#_sR9VkGC0EeeGHfgtarxc8g"/>
+    <requiredRole_AssemblyConnector href="Sandbox.repository#_T14QgGhwEee2hp6a33APNA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4_tC0GhwEee2hp6a33APNA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_swwZsGhwEee2hp6a33APNA" providingAssemblyContext_AssemblyConnector="_oLb0YGhwEee2hp6a33APNA">
+    <providedRole_AssemblyConnector href="Sandbox.repository#_sR9VkGC0EeeGHfgtarxc8g"/>
+    <requiredRole_AssemblyConnector href="Sandbox.repository#_Ta9PEGhwEee2hp6a33APNA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_6jfw0GhwEee2hp6a33APNA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_uCixsGhwEee2hp6a33APNA" providingAssemblyContext_AssemblyConnector="_swwZsGhwEee2hp6a33APNA">
+    <providedRole_AssemblyConnector href="Sandbox.repository#_ZA2gkGhwEee2hp6a33APNA"/>
+    <requiredRole_AssemblyConnector href="Sandbox.repository#_bXscIGhwEee2hp6a33APNA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__tJLMGhwEee2hp6a33APNA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_-IceQGhwEee2hp6a33APNA" assemblyContext_ProvidedDelegationConnector="_uCixsGhwEee2hp6a33APNA">
+    <innerProvidedRole_ProvidedDelegationConnector href="Sandbox.repository#_e37BoGhwEee2hp6a33APNA"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-IceQGhwEee2hp6a33APNA" entityName="OperationProvidedRole1">
+    <providedInterface__OperationProvidedRole href="Sandbox.repository#_cwfbEGhwEee2hp6a33APNA"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

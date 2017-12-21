@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_DpeOcF_MEeeiH9xMAsAPmw" entityName="New Repository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_SUOysF_MEeeiH9xMAsAPmw" entityName="loc-clusterServices">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WEzhUF_MEeeiH9xMAsAPmw" entityName="loc-clusterServices" providedInterface__OperationProvidedRole="_MGCyIF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_5vFhkF_OEeeiH9xMAsAPmw" entityName="loc-territoryOptimizer" requiredInterface__OperationRequiredRole="_hw8YUF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_9XYd8F_OEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_AP90oF_PEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Di0FcF_PEeeiH9xMAsAPmw" entityName="lgc-dimaServices" requiredInterface__OperationRequiredRole="_OtMIoF_OEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_j36E0F_MEeeiH9xMAsAPmw" entityName="loc-territoryOptimizer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_nX2WcF_MEeeiH9xMAsAPmw" entityName="loc-territoryOptimizer" providedInterface__OperationProvidedRole="_hw8YUF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_oUJfQF_PEeeiH9xMAsAPmw" entityName="lgc-dimaCtrl" requiredInterface__OperationRequiredRole="_jJXHUF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_php0MF_PEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_qkgYUF_PEeeiH9xMAsAPmw" entityName="lgc-dataAccess" requiredInterface__OperationRequiredRole="_Bh0wAF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_rT84QF_PEeeiH9xMAsAPmw" entityName="lgc-roadGraph" requiredInterface__OperationRequiredRole="_192WgF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_sgs_QF_PEeeiH9xMAsAPmw" entityName="lgc-router" requiredInterface__OperationRequiredRole="_7nrQUF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_syD8YF_MEeeiH9xMAsAPmw" entityName="loc-vrpSolver">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_t6eV8F_MEeeiH9xMAsAPmw" entityName="loc-vrpSolver" providedInterface__OperationProvidedRole="_q4S-YF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_TdR-EF_PEeeiH9xMAsAPmw" entityName="lgc-dimaCtrl" requiredInterface__OperationRequiredRole="_jJXHUF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Um1AEF_PEeeiH9xMAsAPmw" entityName="lgc-router" requiredInterface__OperationRequiredRole="_7nrQUF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_V_3PkF_PEeeiH9xMAsAPmw" entityName="lgc-roadGraph" requiredInterface__OperationRequiredRole="_192WgF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_XojEoF_PEeeiH9xMAsAPmw" entityName="lgc-dataAccess" requiredInterface__OperationRequiredRole="_Bh0wAF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Y-b5gF_PEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_4GHDgF_MEeeiH9xMAsAPmw" entityName="lgc-roadGraph">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_5FNwEF_MEeeiH9xMAsAPmw" entityName="lgc-roadGraph" providedInterface__OperationProvidedRole="_192WgF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_de0UcF_PEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_eIMBkF_PEeeiH9xMAsAPmw" entityName="lgc-dataAccess" requiredInterface__OperationRequiredRole="_Bh0wAF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_9D1FQF_NEeeiH9xMAsAPmw" entityName="lgc-router">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-9eugF_NEeeiH9xMAsAPmw" entityName="lgc-router" providedInterface__OperationProvidedRole="_7nrQUF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_5sLsoF_QEeeiH9xMAsAPmw" entityName="lgc-roadGraph" requiredInterface__OperationRequiredRole="_192WgF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_6iNVsF_QEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Dlq3EF_NEeeiH9xMAsAPmw" entityName="lgc-dataAccess">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_EsFskF_NEeeiH9xMAsAPmw" entityName="lgc-dataAccess" providedInterface__OperationProvidedRole="_Bh0wAF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_x7FkUF_PEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Gi9HkF_NEeeiH9xMAsAPmw" entityName="xs-frontend">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IE7QoF_NEeeiH9xMAsAPmw" entityName="xs-frontend" providedInterface__OperationProvidedRole="_FbUKEF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_1Nl24F_PEeeiH9xMAsAPmw" entityName="xs-generation" requiredInterface__OperationRequiredRole="_aKiVsF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_VrG8wGLeEeeiIOBM5Tu7tg" entityName="xs-generation_documentation" requiredInterface__OperationRequiredRole="_JVmYoGLeEeeiIOBM5Tu7tg"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Kv96kF_NEeeiH9xMAsAPmw" entityName="lgc-renderer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_MD0vIF_NEeeiH9xMAsAPmw" entityName="lgc-renderer" providedInterface__OperationProvidedRole="_JS0AEF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_4_5q4F_PEeeiH9xMAsAPmw" entityName="lgc-roadGraph" requiredInterface__OperationRequiredRole="_192WgF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_50IkMF_PEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_P9JxIF_NEeeiH9xMAsAPmw" entityName="xs-server-container">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_RMhHQF_NEeeiH9xMAsAPmw" entityName="xs-server-container" providedInterface__OperationProvidedRole="_OZSKoF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_9N2SAF_PEeeiH9xMAsAPmw" entityName="xs-generation" requiredInterface__OperationRequiredRole="_aKiVsF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-faAgF_PEeeiH9xMAsAPmw" entityName="xs-server-services" requiredInterface__OperationRequiredRole="_R9jtMF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__MWmEF_PEeeiH9xMAsAPmw" entityName="xs-frontend" requiredInterface__OperationRequiredRole="_FbUKEF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_XEoxMF_NEeeiH9xMAsAPmw" entityName="lbc">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YVNBMF_NEeeiH9xMAsAPmw" entityName="lbc" providedInterface__OperationProvidedRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_CfYdEF_QEeeiH9xMAsAPmw" entityName="xs-generation" requiredInterface__OperationRequiredRole="_aKiVsF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_FY3LoF_QEeeiH9xMAsAPmw" entityName="xs-runtime" requiredInterface__OperationRequiredRole="_m76y8F_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_bhSisF_NEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_cYnzUF_NEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" providedInterface__OperationProvidedRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_JJHKIF_QEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KVpOsF_QEeeiH9xMAsAPmw" entityName="lgc-roadGraph" requiredInterface__OperationRequiredRole="_192WgF_MEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_f9avwF_NEeeiH9xMAsAPmw" entityName="loc-vrpServices">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_iGO2YF_NEeeiH9xMAsAPmw" entityName="loc-vrpServices" providedInterface__OperationProvidedRole="_da_PQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_TZCh0F_QEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Ug_BUF_QEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_W6RM4F_QEeeiH9xMAsAPmw" entityName="lgc-dimaServices" requiredInterface__OperationRequiredRole="_OtMIoF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Y7y_wF_QEeeiH9xMAsAPmw" entityName="loc-vrpSolver" requiredInterface__OperationRequiredRole="_q4S-YF_MEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_lRSdIF_NEeeiH9xMAsAPmw" entityName="lgc-dimaCtrl">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_l8vN4F_NEeeiH9xMAsAPmw" entityName="lgc-dimaCtrl" providedInterface__OperationProvidedRole="_jJXHUF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_cACM0F_QEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_fd1JYF_QEeeiH9xMAsAPmw" entityName="lgc-router" requiredInterface__OperationRequiredRole="_7nrQUF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_oLQT4F_NEeeiH9xMAsAPmw" entityName="xs-runtime">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_pGsBYF_NEeeiH9xMAsAPmw" entityName="xs-runtime" providedInterface__OperationProvidedRole="_m76y8F_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_hrM_4F_QEeeiH9xMAsAPmw" entityName="xs-generation" requiredInterface__OperationRequiredRole="_aKiVsF_OEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_tZzcYF_NEeeiH9xMAsAPmw" entityName="lgc-routerServices">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_uRqRcF_NEeeiH9xMAsAPmw" entityName="lgc-routerServices" providedInterface__OperationProvidedRole="_rfH4YF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_mOIYgF_QEeeiH9xMAsAPmw" entityName="lgc-router" requiredInterface__OperationRequiredRole="_7nrQUF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ntB_cF_QEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_pYro8F_QEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_x3X7MGCOEee574C1gMQIfw" entityName="lgc-commonRoutingServicesTasks" requiredInterface__OperationRequiredRole="_REtL0GCNEee574C1gMQIfw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xW8nYF_NEeeiH9xMAsAPmw" entityName="lgc-rendererServices">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_zkuGgF_NEeeiH9xMAsAPmw" entityName="lgc-rendererServices" providedInterface__OperationProvidedRole="_vaJjgF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_tD-2AF_QEeeiH9xMAsAPmw" entityName="lgc-renderer" requiredInterface__OperationRequiredRole="_JS0AEF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_uRJMsF_QEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_wQJQAF_QEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_1Zq18F_NEeeiH9xMAsAPmw" entityName="xs-engines">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_2QYbgF_NEeeiH9xMAsAPmw" entityName="xs-engines" providedInterface__OperationProvidedRole="_0Rfs8F_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_5dw9gF_NEeeiH9xMAsAPmw" entityName="lgc-dataInformationServices">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_65swAF_NEeeiH9xMAsAPmw" entityName="lgc-dataInformationServices" providedInterface__OperationProvidedRole="_3UgK8F_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_1g2UoF_QEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_2RhjoF_QEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Is8dcF_OEeeiH9xMAsAPmw" entityName="loc-loadOptimizer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_JftXIF_OEeeiH9xMAsAPmw" entityName="loc-loadOptimizer" providedInterface__OperationProvidedRole="_GtZnkF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_9UvHsF_QEeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-TIpoF_QEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_MUhBEF_OEeeiH9xMAsAPmw" entityName="lgc-updateServices">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_N2VZIF_OEeeiH9xMAsAPmw" entityName="lgc-updateServices" providedInterface__OperationProvidedRole="_KmpxEF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_AVdGsF_REeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_BLFuMF_REeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_QMpwQF_OEeeiH9xMAsAPmw" entityName="lgc-dimaServices">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_RIEPoF_OEeeiH9xMAsAPmw" entityName="lgc-dimaServices" providedInterface__OperationProvidedRole="_OtMIoF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_DOYboF_REeeiH9xMAsAPmw" entityName="lgc-dimaCtrl" requiredInterface__OperationRequiredRole="_jJXHUF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_EA5dsF_REeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_EgQTMF_REeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_sxwFMGCOEee574C1gMQIfw" entityName="lgc-commonRoutingServicesTasks" requiredInterface__OperationRequiredRole="_REtL0GCNEee574C1gMQIfw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_TnrFoF_OEeeiH9xMAsAPmw" entityName="xs-server-services">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ViM4oF_OEeeiH9xMAsAPmw" entityName="xs-server-services" providedInterface__OperationProvidedRole="_R9jtMF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ISG0MF_REeeiH9xMAsAPmw" entityName="xs-frontend" requiredInterface__OperationRequiredRole="_FbUKEF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_JYcxMF_REeeiH9xMAsAPmw" entityName="xs-generation" requiredInterface__OperationRequiredRole="_aKiVsF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KrcqIF_REeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_L7ptwF_REeeiH9xMAsAPmw" entityName="xs-modules" requiredInterface__OperationRequiredRole="_V5VmQF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_NOWEsF_REeeiH9xMAsAPmw" entityName="xs-runtime" requiredInterface__OperationRequiredRole="_m76y8F_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_YMy2oF_OEeeiH9xMAsAPmw" entityName="xs-modules">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ZV5MsF_OEeeiH9xMAsAPmw" entityName="xs-modules" providedInterface__OperationProvidedRole="_V5VmQF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Qr_3UF_REeeiH9xMAsAPmw" entityName="xs-runtime" requiredInterface__OperationRequiredRole="_m76y8F_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_SLWxQF_REeeiH9xMAsAPmw" entityName="loc-vrpServices" requiredInterface__OperationRequiredRole="_da_PQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Tw-rQF_REeeiH9xMAsAPmw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_VGu9QF_REeeiH9xMAsAPmw" entityName="lgc-dataInformationServices" requiredInterface__OperationRequiredRole="_3UgK8F_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_WhUE4F_REeeiH9xMAsAPmw" entityName="lgc-routerServices" requiredInterface__OperationRequiredRole="_rfH4YF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_X8FZwF_REeeiH9xMAsAPmw" entityName="lgc-rendererServices" requiredInterface__OperationRequiredRole="_vaJjgF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_aXWiUF_REeeiH9xMAsAPmw" entityName="xs-generation" requiredInterface__OperationRequiredRole="_aKiVsF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_dAV90F_REeeiH9xMAsAPmw" entityName="xs-engines" requiredInterface__OperationRequiredRole="_0Rfs8F_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_eG_c0F_REeeiH9xMAsAPmw" entityName="loc-loadOptimizer" requiredInterface__OperationRequiredRole="_GtZnkF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_fuiCYF_REeeiH9xMAsAPmw" entityName="lgc-dimaServices" requiredInterface__OperationRequiredRole="_OtMIoF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_hqMd0F_REeeiH9xMAsAPmw" entityName="loc-clusterServices" requiredInterface__OperationRequiredRole="_MGCyIF_MEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_iyN10F_REeeiH9xMAsAPmw" entityName="lgc-updateServices" requiredInterface__OperationRequiredRole="_KmpxEF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_2x3moGCLEee574C1gMQIfw" entityName="lgc-dataServices" requiredInterface__OperationRequiredRole="_Z3F5YGCLEee574C1gMQIfw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_baNN0F_OEeeiH9xMAsAPmw" entityName="xs-generation">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_czTuwF_OEeeiH9xMAsAPmw" entityName="xs-generation" providedInterface__OperationProvidedRole="_aKiVsF_OEeeiH9xMAsAPmw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_RTOWgGLeEeeiIOBM5Tu7tg" entityName="xs-generation_documentation" providedInterface__OperationProvidedRole="_JVmYoGLeEeeiIOBM5Tu7tg"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_RNa1MGCIEee574C1gMQIfw" entityName="xs-server-systemTest">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKzMUGCIEee574C1gMQIfw" entityName="xs-server-systemTest" providedInterface__OperationProvidedRole="_OKpAsGCIEee574C1gMQIfw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_V6uR0GCIEee574C1gMQIfw" entityName="xs-server-services" requiredInterface__OperationRequiredRole="_R9jtMF_OEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_WiKsUGCIEee574C1gMQIfw" entityName="xs-server-container" requiredInterface__OperationRequiredRole="_OZSKoF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_djO7UGCIEee574C1gMQIfw" entityName="xs-generation" requiredInterface__OperationRequiredRole="_aKiVsF_OEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_bLij0GCLEee574C1gMQIfw" entityName="lgc-dataServices">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_dQ2qgGCLEee574C1gMQIfw" entityName="lgc-dataServices" providedInterface__OperationProvidedRole="_Z3F5YGCLEee574C1gMQIfw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lHFm8GCLEee574C1gMQIfw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_qg3vEGCLEee574C1gMQIfw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_U1hyEGCNEee574C1gMQIfw" entityName="lgc-commonRoutingServicesTasks">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WFV0IGCNEee574C1gMQIfw" entityName="lgc-commonRoutingServicesTasks" providedInterface__OperationProvidedRole="_REtL0GCNEee574C1gMQIfw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_nox1sGCNEee574C1gMQIfw" entityName="lgc-router" requiredInterface__OperationRequiredRole="_7nrQUF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_riD0YGCNEee574C1gMQIfw" entityName="lgc-servicesMapHelper" requiredInterface__OperationRequiredRole="_ZqDUQF_NEeeiH9xMAsAPmw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_uoI0gGCNEee574C1gMQIfw" entityName="lbc" requiredInterface__OperationRequiredRole="_WOdXIF_NEeeiH9xMAsAPmw"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_MGCyIF_MEeeiH9xMAsAPmw" entityName="loc-clusterServices">
+    <signatures__OperationInterface id="_5s5FMF_6EeeO95ZfB3wRUw" entityName="planClusters"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_hw8YUF_MEeeiH9xMAsAPmw" entityName="loc-territoryOptimizer">
+    <signatures__OperationInterface id="_9vF54F_7EeeO95ZfB3wRUw" entityName="planClusters"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_q4S-YF_MEeeiH9xMAsAPmw" entityName="loc-vrpSolver">
+    <signatures__OperationInterface id="_7s28YF_7EeeO95ZfB3wRUw" entityName="planTour"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_192WgF_MEeeiH9xMAsAPmw" entityName="lgc-roadGraph">
+    <signatures__OperationInterface id="_khXQsF_8EeeO95ZfB3wRUw" entityName="getRoadGraph"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7nrQUF_NEeeiH9xMAsAPmw" entityName="lgc-router">
+    <signatures__OperationInterface id="_msg5oF_8EeeO95ZfB3wRUw" entityName="calculateRoute"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Bh0wAF_NEeeiH9xMAsAPmw" entityName="lgc-dataAccess">
+    <signatures__OperationInterface id="_sUUPoF_8EeeO95ZfB3wRUw" entityName="getDataAccess"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_FbUKEF_NEeeiH9xMAsAPmw" entityName="xs-frontend">
+    <signatures__OperationInterface id="_LRiAoF_7EeeO95ZfB3wRUw" entityName="getDashboard"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_JS0AEF_NEeeiH9xMAsAPmw" entityName="lgc-renderer">
+    <signatures__OperationInterface id="_GSqdcF_8EeeO95ZfB3wRUw" entityName="getTile"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_OZSKoF_NEeeiH9xMAsAPmw" entityName="xs-server-container">
+    <signatures__OperationInterface id="_Eta98F_8EeeO95ZfB3wRUw" entityName="startXServer"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_WOdXIF_NEeeiH9xMAsAPmw" entityName="lbc">
+    <signatures__OperationInterface id="_awoREF_pEeeiH9xMAsAPmw" entityName="getNativeTypes"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_ZqDUQF_NEeeiH9xMAsAPmw" entityName="lgc-servicesMapHelper">
+    <signatures__OperationInterface id="_8dWvwF_8EeeO95ZfB3wRUw" entityName="addLimitation"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_da_PQF_NEeeiH9xMAsAPmw" entityName="loc-vrpServices">
+    <signatures__OperationInterface id="_WmP2IF_7EeeO95ZfB3wRUw" entityName="planTour"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_jJXHUF_NEeeiH9xMAsAPmw" entityName="lgc-dimaCtrl">
+    <signatures__OperationInterface id="_-VIJsF_8EeeO95ZfB3wRUw" entityName="createDima"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m76y8F_NEeeiH9xMAsAPmw" entityName="xs-runtime">
+    <signatures__OperationInterface id="_fgO5IF_8EeeO95ZfB3wRUw" entityName="getConfig"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_rfH4YF_NEeeiH9xMAsAPmw" entityName="lgc-routerServices">
+    <signatures__OperationInterface id="_bE0TMF_7EeeO95ZfB3wRUw" entityName="calculateRoute"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_vaJjgF_NEeeiH9xMAsAPmw" entityName="lgc-rendererServices">
+    <signatures__OperationInterface id="_PIGpkF_7EeeO95ZfB3wRUw" entityName="getTile"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_0Rfs8F_NEeeiH9xMAsAPmw" entityName="xs-engines">
+    <signatures__OperationInterface id="_Ym9wsF_7EeeO95ZfB3wRUw" entityName="searchLocation"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3UgK8F_NEeeiH9xMAsAPmw" entityName="lgc-dataInformationServices">
+    <signatures__OperationInterface id="_BDaxYF_8EeeO95ZfB3wRUw" entityName="getDataInformation"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_GtZnkF_OEeeiH9xMAsAPmw" entityName="loc-loadOptimizer">
+    <signatures__OperationInterface id="_lJ7AIF_pEeeiH9xMAsAPmw" entityName="packBins"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_KmpxEF_OEeeiH9xMAsAPmw" entityName="lgc-updateServices">
+    <signatures__OperationInterface id="_OD4XAF_8EeeO95ZfB3wRUw" entityName="updateFeatureLayer"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_OtMIoF_OEeeiH9xMAsAPmw" entityName="lgc-dimaServices">
+    <signatures__OperationInterface id="_RjcqoF_7EeeO95ZfB3wRUw" entityName="createDistanceMatrix"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_R9jtMF_OEeeiH9xMAsAPmw" entityName="xs-server-services">
+    <signatures__OperationInterface id="_CzgO8F_8EeeO95ZfB3wRUw" entityName="getService"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_V5VmQF_OEeeiH9xMAsAPmw" entityName="xs-modules">
+    <signatures__OperationInterface id="_DqvY8F_8EeeO95ZfB3wRUw" entityName="getModules"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_aKiVsF_OEeeiH9xMAsAPmw" entityName="xs-generation">
+    <signatures__OperationInterface id="_NuAqIF_7EeeO95ZfB3wRUw" entityName="getModel"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_OKpAsGCIEee574C1gMQIfw" entityName="xs-server-systemTest">
+    <signatures__OperationInterface id="_P_AhUGCIEee574C1gMQIfw" entityName="executeTests"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Z3F5YGCLEee574C1gMQIfw" entityName="lgc-dataServices">
+    <signatures__OperationInterface id="_9dbDMGCMEee574C1gMQIfw" entityName="getTimeZone"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_REtL0GCNEee574C1gMQIfw" entityName="lgc-commonRoutingServicesTasks">
+    <signatures__OperationInterface id="_TByHEGCOEee574C1gMQIfw" entityName="checkLicenseForHighPerformanceRouting"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_JVmYoGLeEeeiIOBM5Tu7tg" entityName="xs-generation_documentation">
+    <signatures__OperationInterface id="_L72CIGLeEeeiIOBM5Tu7tg" entityName="getDocumentation"/>
+  </interfaces__Repository>
+</repository:Repository>

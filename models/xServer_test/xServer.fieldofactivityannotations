@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fieldofactivityannotations:ISFieldOfActivityAnnotationsRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fieldofactivityannotations="http://sdq.ipd.kit.edu/KAMP4ISFieldOfActivityAnnotations/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <developmentArtefactSpecification/>
+  <buildSpecification>
+    <buildConfigurations filename="xs/server/container/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_P9JxIF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_XEoxMF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/commonRoutingServicesTasks/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_U1hyEGCNEee574C1gMQIfw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataAccess/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_Dlq3EF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataInformationServices/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_5dw9gF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataServices/pom.xml" technology="">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_bLij0GCLEee574C1gMQIfw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaCtrl/pom.xml" technology="">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_lRSdIF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaServices/pom.xml" technology="">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_QMpwQF_OEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/renderer/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_Kv96kF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/rendererServices/pom.xml" technology="">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_xW8nYF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/roadGraph/pom.xml" technology="">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_4GHDgF_MEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/router/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_9D1FQF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/routerServices/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_tZzcYF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/servicesMapHelper/pom.xml" technology="">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_bhSisF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/clusterServices/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_SUOysF_MEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/loadOptimizer/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_Is8dcF_OEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/territoryOptimizer/pom.xml" technology="">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_j36E0F_MEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpServices/pom.xml" technology="">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_f9avwF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpSolver/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_syD8YF_MEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/engines/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_1Zq18F_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/frontend/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_Gi9HkF_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_baNN0F_OEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_YMy2oF_OEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/runtime/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_oLQT4F_NEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/services/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_TnrFoF_OEeeiH9xMAsAPmw"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/pom.xml">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_RNa1MGCIEee574C1gMQIfw"/>
+    </buildConfigurations>
+  </buildSpecification>
+  <testSpecification/>
+  <releaseSpecification/>
+  <deploymentSpecification/>
+  <staffSpecification>
+    <personList/>
+    <roleList/>
+  </staffSpecification>
+</fieldofactivityannotations:ISFieldOfActivityAnnotationsRepository>

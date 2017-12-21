@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fieldofactivityannotations:ISFieldOfActivityAnnotationsRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fieldofactivityannotations="http://sdq.ipd.kit.edu/KAMP4ISFieldOfActivityAnnotations/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <buildSpecification>
+    <buildConfigurations filename="loc/timeCalculator/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLC0cLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataServices/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLI7E7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/frontend/dashboard/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLI7GrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modeling/generator/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLJiIbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataServices/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLJiJbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/base/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLJiKbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/renderer/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLJiMLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/jaxws-maven-plugin/src/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKJMLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataInformationServices/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKJN7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpSolver/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKJPrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/frontend/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKJQrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/parent/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKJSbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/generator-maven-plugin/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKJTbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/runtime/core/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKwQ7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKwR7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/distributionManagement/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKwTrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/commonRoutingServicesTasks/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKwUrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/externalRemainingPeriods/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKwVrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/parent/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKwWrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/systemTest/pollingIntegrationTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKwXrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeConfig/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLKwYrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpSolver/python/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLLXU7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="nightly/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLLXV7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/clusterServices/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLLXW7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/engines/geocoder/searcher/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLLXX7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpServices/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLLXY7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaServices/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLLXarfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/renderer/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-ZLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/data/map/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-aLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataAccess/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-bLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/loadOptimizer/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-cLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/services/api/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-dLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/servicesMapHelper/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-eLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xcluster/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-fLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/engines/geocoder/testtool/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-gLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/tomcatPatch/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-hLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xtour/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLL-iLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpServices/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMlcLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/roadGraph/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMldLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/clusterServices/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMleLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/renderer/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMlf7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMlg7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/wsdl/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMlirfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeLogging/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMljrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeTypes/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMlkrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/servicesMapHelper/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMllrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/jaxws-maven-plugin/src/it/wsimport/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLMlmrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/territoryOptimizer/python/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNMgbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modeling/generator/src/it/generatorTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNMiLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/runtime/core/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNMjLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/base/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNMkLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/java/qa-resources/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNMlLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/container/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNMmLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNMnLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/engines/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNMo7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="pbc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNMqrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaCtrl/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNzlLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/router/cpp/experimental/intermodalRouter/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNzm7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/servicesMapHelper/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNzn7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xroute/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNzo7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/tools/server-execution-test/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNzp7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/jaxws-maven-plugin/src/it/jaxws-ri-samples/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNzq7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNzr7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNztrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeCrash/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLNzvbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/engines/geocoder/performance/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLOaorfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataInformationServices/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLOaprfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/router/cpp/experimental/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLOaqrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeTypes/swg/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLOasbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataAccess/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLOatbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/image/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLOaubfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpServices/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLOavbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/runtime/config/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLOawbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/plugins/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLOaxbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/runtime/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPBtbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataInformationServices/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPBvLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/doxygen/devcomp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPBwLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/runtime/login/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPBxLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/noLicenseTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPByLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/utils/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPBzLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaServices/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPB07fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="pbc/containerParent/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPowLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/clusterServices/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPoxLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPoy7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/runtime/cxf/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPo0rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xmap/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPo1rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/engines/geocoder/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPo2rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeTypes/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLPo4bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/commonRoutingServicesTasks/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQP1LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/runtime/client-model/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQP2LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeLogging/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQP3LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xlocate/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQP47fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeConfig/java-integration/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQP57fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaCtrl/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQP67fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/routerServices/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQP77fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataServices/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQP87fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/territoryOptimizer/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQP-rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeCrash/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ24bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/router/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ25bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/data/dbcreator/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ26bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/tools/patch-configuration/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ27bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/runtime/storage/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ28bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/routerServices/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ29bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/mock/cus/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ2-bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/java/qa-parent/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ2_bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeConfig/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ3AbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/roadGraph/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLQ3BbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/clusterServices/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLRd8LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xdata/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLRd9LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLRd-LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/services/cus/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLRd_7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/externalRemainingPeriods/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLReA7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/routerServices/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLReB7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/runtime/nativeConfigGenerator/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLReC7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/mock/lds/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLReD7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeModelIntrospection/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLReE7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/parent/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLReGrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/versioningTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLReHrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/runtime/config/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLReIrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/timeCalculator/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSFAbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/router/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSFCLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/services/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSFDLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/rendererServices/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSFE7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/data/db/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSFF7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xmatch/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSFG7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/client/java/parent/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSsELfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/rendererServices/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSsFLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/dashboardTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSsG7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeConfig/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSsH7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/deploymentTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLSsI7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/doxygen/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTIbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/data/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTJbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeCrash/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTLLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeCrash/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTM7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaCtrl/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTN7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/rendererServices/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTPrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpSolver/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTRbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/frontend/samples/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTSbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaCtrl/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTTbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/servicesMapHelper/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLTTUbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaCtrl/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6MrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modeling/generator/src/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6NrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpServices/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6PbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/commonRoutingServicesTasks/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6RLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xruntime/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6S7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeModelIntrospection/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6T7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/timeCalculator/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6U7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modeling/generator/src/it/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6V7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/services/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6XrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataAccess/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6YrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataAccess/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLT6abfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/client/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhQbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeCrash/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhSLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/renderer/cpp/src/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhT7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeConfig/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhU7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaServices/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhV7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/model/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhW7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/router/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhX7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/model-interface/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhY7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/wsdlPatch/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhZ7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/engines/geocoder/exporter/exportConfigs/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUha7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/runtime/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLUhb7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/tools/patch-configuration-tool/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIVLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/loadOptimizer/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIWLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/tools/server-execution/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIXLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/loadOptimizer/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIYLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/runtime/adapter/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIZ7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/territoryOptimizer/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIbrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/container/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIcrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/base/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIdrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/data/dbwebapp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIerfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/territoryOptimizer/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIfrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/externalRemainingPeriods/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIhbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/profiles/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIjLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/profilesTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVIkLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/territoryOptimizer/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvYLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataInformationServices/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvZ7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaServices/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvbrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/rendererServices/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvcrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/renderer/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvdrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpSolver/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVverfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/runtime/model/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvgbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeModelIntrospection/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvhbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeTypes/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvjLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/roadGraph/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvk7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/client/clientbundle/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvmrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/timeCalculator/cpp/doc/doxygen/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvnrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modeling/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLVvorfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/runtime/matchers/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWdrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/jam/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWerfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/engines/geocoder/common/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWfrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/roadGraph/FeatureLayerResources/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWgrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWhrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/renderer/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWjbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/linkchecker-maven-plugin/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWlLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/loadOptimizer/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWmLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeModelIntrospection/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWn7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeLogging/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWo7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dimaServices/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWqrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/systemTest/authenticationIntegrationTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWrrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/routerServices/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWsrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/engines/geocoder/exporter/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWubfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/servicesTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWvbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/xserver-swig/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWwbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeConfig/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLWWxbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/commonRoutingServicesTasks/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLW9hbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/territoryOptimizer/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLW9jLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpServices/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLW9kLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/roadGraph/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLW9lLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/jaxws-maven-plugin/src/it/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLW9m7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpSolver/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLW9orfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/frontend/dashboard/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLW9prfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataAccess/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLW9qrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/externalRemainingPeriods/cpp/doc/doxygen/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLW9sbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkk7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/pluginManagement/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkmrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/systemTest/clientIntegrationTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXknrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/tools/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkorfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/java/testing/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkqbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/plugins/WMS/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkrbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/servicesMapHelper/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXksbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/lint/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkuLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/client/java/default/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkvLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/router/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkwLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/base/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkx7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/image/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXkzrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/systemTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLXk0rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeModelIntrospection/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYLpbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/base/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYLqbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/restrictedLicenseTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYLrbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/routerServices/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYLsbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/image/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYLuLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeTypes/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYLv7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/client/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYLw7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/timeCalculator/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYLyrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/systemTest/adapterIntegrationTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYLzrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeLogging/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYL0rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYL1rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYysbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/clusterServices/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYytbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/samples-maven-plugin/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYyubfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYyvbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/contentUpdateTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYyxLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/loadOptimizer/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYyyLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/nativeinterfacetest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYyzLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/globalProperties/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy0LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/image/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy1LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/services/db/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy27fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/runtime/adapter/xserver1/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy37fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/roadGraph/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy47fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/territoryOptimizer/python/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy6rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/backlink-maven-plugin/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy7rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/runtime/client/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy8rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xcrash/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy9rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/generation/client/java/experimental/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy-rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/image/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYy_rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpSolver/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLYzArfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/maven-plugins/server-execution-maven-plugin-test/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZxLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/utils/integrationtest-utils/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZyLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xdima/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZzLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/externalRemainingPeriods/cpp/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZ0LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/vrpSolver/python/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZ17fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/router/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZ3rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZ5bfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="common/documentation/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZ7LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/mock/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZ8LfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/commonRoutingServicesTasks/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZ97fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modeling/xsidlGrammar/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZ-7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/server/systemTest/generatorTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZZ_7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/externalRemainingPeriods/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZaA7fKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZaCrfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/frontend/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZaEbfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="cus/server/systemTest/subscribeIntegrationTest/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZaGLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/dataServices/cpp/build/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLZaHLfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeTypes/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLaA0rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="xs/modules/xload/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLaA1rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lgc/rendererServices/java/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLaA2rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="lbc/xserverNativeLogging/cpp/doc/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLaA3rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+    <buildConfigurations filename="loc/timeCalculator/pom.xml" technology="Apache Maven">
+      <component xsi:type="repository:BasicComponent" href="xServer.repository#_yLaA4rfKEeePjeWEEcJr5Q"/>
+    </buildConfigurations>
+  </buildSpecification>
+</fieldofactivityannotations:ISFieldOfActivityAnnotationsRepository>

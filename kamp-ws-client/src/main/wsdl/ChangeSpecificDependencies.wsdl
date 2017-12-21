@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="ChangeSpecificDependenciesService" targetNamespace="http://server.kampws.sdq.ipd.kit.edu/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://server.kampws.sdq.ipd.kit.edu/" xmlns:ns1="http://jaxb.dev.java.net/array" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://jaxb.dev.java.net/array" version="1.0">
+
+  <xs:complexType final="#all" name="stringArray">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="item" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+<xsd:schema xmlns:tns="http://server.kampws.sdq.ipd.kit.edu/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://server.kampws.sdq.ipd.kit.edu/">
+  <xsd:element name="IllegalArgumentException" type="tns:IllegalArgumentException"/>
+  <xsd:complexType name="IllegalArgumentException">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="message" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getPossibleChangeScenariosForProjectResponse">
+    <wsdl:part name="return" type="ns1:stringArray">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPossibleProjectNamesResponse">
+    <wsdl:part name="return" type="ns1:stringArray">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getChangeSpecificDependencies">
+    <wsdl:part name="changedProjects" type="ns1:stringArray">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="IllegalArgumentException">
+    <wsdl:part name="IllegalArgumentException" element="tns:IllegalArgumentException">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPossibleProjectNames">
+  </wsdl:message>
+  <wsdl:message name="getChangeSpecificDependenciesResponse">
+    <wsdl:part name="return" type="ns1:stringArray">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPossibleChangeScenariosForProject">
+    <wsdl:part name="projectName" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ChangeSpecificDependencies">
+    <wsdl:operation name="getChangeSpecificDependencies">
+      <wsdl:input name="getChangeSpecificDependencies" message="tns:getChangeSpecificDependencies">
+    </wsdl:input>
+      <wsdl:output name="getChangeSpecificDependenciesResponse" message="tns:getChangeSpecificDependenciesResponse">
+    </wsdl:output>
+      <wsdl:fault name="IllegalArgumentException" message="tns:IllegalArgumentException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPossibleChangeScenariosForProject">
+      <wsdl:input name="getPossibleChangeScenariosForProject" message="tns:getPossibleChangeScenariosForProject">
+    </wsdl:input>
+      <wsdl:output name="getPossibleChangeScenariosForProjectResponse" message="tns:getPossibleChangeScenariosForProjectResponse">
+    </wsdl:output>
+      <wsdl:fault name="IllegalArgumentException" message="tns:IllegalArgumentException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPossibleProjectNames">
+      <wsdl:input name="getPossibleProjectNames" message="tns:getPossibleProjectNames">
+    </wsdl:input>
+      <wsdl:output name="getPossibleProjectNamesResponse" message="tns:getPossibleProjectNamesResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ChangeSpecificDependenciesServiceSoapBinding" type="tns:ChangeSpecificDependencies">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getChangeSpecificDependencies">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="getChangeSpecificDependencies">
+        <soap:body use="literal" namespace="http://server.kampws.sdq.ipd.kit.edu/"/>
+      </wsdl:input>
+      <wsdl:output name="getChangeSpecificDependenciesResponse">
+        <soap:body use="literal" namespace="http://server.kampws.sdq.ipd.kit.edu/"/>
+      </wsdl:output>
+      <wsdl:fault name="IllegalArgumentException">
+        <soap:fault name="IllegalArgumentException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPossibleChangeScenariosForProject">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="getPossibleChangeScenariosForProject">
+        <soap:body use="literal" namespace="http://server.kampws.sdq.ipd.kit.edu/"/>
+      </wsdl:input>
+      <wsdl:output name="getPossibleChangeScenariosForProjectResponse">
+        <soap:body use="literal" namespace="http://server.kampws.sdq.ipd.kit.edu/"/>
+      </wsdl:output>
+      <wsdl:fault name="IllegalArgumentException">
+        <soap:fault name="IllegalArgumentException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPossibleProjectNames">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="getPossibleProjectNames">
+        <soap:body use="literal" namespace="http://server.kampws.sdq.ipd.kit.edu/"/>
+      </wsdl:input>
+      <wsdl:output name="getPossibleProjectNamesResponse">
+        <soap:body use="literal" namespace="http://server.kampws.sdq.ipd.kit.edu/"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ChangeSpecificDependenciesService">
+    <wsdl:port name="ChangeSpecificDependenciesPort" binding="tns:ChangeSpecificDependenciesServiceSoapBinding">
+      <soap:address location="http://localhost:9090/ChangeSpecificDependenciesPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

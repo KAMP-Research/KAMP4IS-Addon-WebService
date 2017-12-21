@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fieldofactivityannotations:ISFieldOfActivityAnnotationsRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fieldofactivityannotations="http://sdq.ipd.kit.edu/KAMP4ISFieldOfActivityAnnotations/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <developmentArtefactSpecification>
+    <sourceFileAggregations numberOfFiles="15" technology="XSIDL">
+      <component xsi:type="repository:BasicComponent" href="Sandbox.repository#_jFaGcGC0EeeGHfgtarxc8g"/>
+    </sourceFileAggregations>
+  </developmentArtefactSpecification>
+  <buildSpecification>
+    <buildConfigurations filename="pom_b.xml" technology="b-Tool">
+      <component xsi:type="repository:BasicComponent" href="Sandbox.repository#_wsJo8GC0EeeGHfgtarxc8g"/>
+    </buildConfigurations>
+  </buildSpecification>
+  <testSpecification>
+    <integrationTestCases nameOfTest="Frontend-Model Test">
+      <providedrole href="Sandbox.repository#_sR9VkGC0EeeGHfgtarxc8g"/>
+      <assemblyConnector href="Sandbox.system#_4_tC0GhwEee2hp6a33APNA"/>
+    </integrationTestCases>
+  </testSpecification>
+  <releaseSpecification/>
+  <deploymentSpecification/>
+  <staffSpecification>
+    <personList/>
+    <roleList/>
+  </staffSpecification>
+</fieldofactivityannotations:ISFieldOfActivityAnnotationsRepository>

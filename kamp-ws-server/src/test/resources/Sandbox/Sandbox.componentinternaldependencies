@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<componentInternalDependencies:ComponentInternalDependencyRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:componentInternalDependencies="http://sdq.ipd.uka.de/ComponentInternalDependencies/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_mLi-0tYgEeWrM-HnT5f_ug">
+  <dependencies id="_inWrUGhxEee2hp6a33APNA">
+    <providedRole xsi:type="repository:OperationProvidedRole" href="Sandbox.repository#_e37BoGhwEee2hp6a33APNA"/>
+    <requiredRole xsi:type="repository:OperationRequiredRole" href="Sandbox.repository#_T14QgGhwEee2hp6a33APNA"/>
+    <operationToOperationDependency id="_oLlI4GhxEee2hp6a33APNA">
+      <providedSignatures xsi:type="repository:OperationSignature" href="Sandbox.repository#_fI2ZkGhwEee2hp6a33APNA"/>
+      <requiredSignatures xsi:type="repository:OperationSignature" href="Sandbox.repository#_qCz9cGC0EeeGHfgtarxc8g"/>
+    </operationToOperationDependency>
+  </dependencies>
+  <dependencies id="_myBU8WhxEee2hp6a33APNA">
+    <providedRole xsi:type="repository:OperationProvidedRole" href="Sandbox.repository#_e37BoGhwEee2hp6a33APNA"/>
+    <requiredRole xsi:type="repository:OperationRequiredRole" href="Sandbox.repository#_bXscIGhwEee2hp6a33APNA"/>
+    <operationToOperationDependency id="_t9QMkGhxEee2hp6a33APNA">
+      <providedSignatures xsi:type="repository:OperationSignature" href="Sandbox.repository#_fI2ZkGhwEee2hp6a33APNA"/>
+      <requiredSignatures xsi:type="repository:OperationSignature" href="Sandbox.repository#_Zh5YIGhwEee2hp6a33APNA"/>
+    </operationToOperationDependency>
+  </dependencies>
+  <dependencies id="_wj8iAGhxEee2hp6a33APNA">
+    <providedRole xsi:type="repository:OperationProvidedRole" href="Sandbox.repository#_ZA2gkGhwEee2hp6a33APNA"/>
+    <requiredRole xsi:type="repository:OperationRequiredRole" href="Sandbox.repository#_Ta9PEGhwEee2hp6a33APNA"/>
+    <operationToOperationDependency id="_yWQNIGhxEee2hp6a33APNA">
+      <providedSignatures xsi:type="repository:OperationSignature" href="Sandbox.repository#_Zh5YIGhwEee2hp6a33APNA"/>
+      <requiredSignatures xsi:type="repository:OperationSignature" href="Sandbox.repository#_qCz9cGC0EeeGHfgtarxc8g"/>
+    </operationToOperationDependency>
+  </dependencies>
+</componentInternalDependencies:ComponentInternalDependencyRepository>
